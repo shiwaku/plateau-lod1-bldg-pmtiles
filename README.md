@@ -5,7 +5,7 @@
 - オープンソースソフトウェアで構築
 
 ## デモサイト
-- https://shi-works.github.io/plateau-lod1-bldg-pmtiles/
+- https://shiwaku.github.io/plateau-lod1-bldg-pmtiles/
 - サンプル画像
 ![image](https://github.com/shi-works/plateau-lod1-bldg-pmtiles/assets/71203808/53c23c15-fbec-4f33-808d-1bb494c718f6)
 
