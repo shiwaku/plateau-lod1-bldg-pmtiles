@@ -171,7 +171,7 @@
     maplibregl.addProtocol("pmtiles", protocol.tile);
 
     // PLATEAUベクトルタイル
-    let PMTiles_URL = "https://xs489works.xsrv.jp/pmtiles-data/plateau/01100_sapporo-shi_lod1_Building.pmtiles";
+    let PMTiles_URL = "https://shi-works.com/pmtiles/plateau/01100_sapporo-shi_lod1_Building.pmtiles";
 
     // マップを初期化
     const map = new maplibregl.Map({
@@ -233,7 +233,7 @@
       map.addSource("gsidem-terrain-rgb", {
         type: 'raster-dem',
         tiles: [
-          'https://xs489works.xsrv.jp/raster-tiles/gsi/gsi-dem-terrain-rgb/{z}/{x}/{y}.png'
+          'https://shi-works.com/raster-tiles/gsi/gsi-dem-terrain-rgb/{z}/{x}/{y}.png'
         ],
         attribution: '<a href="https://maps.gsi.go.jp/development/ichiran.html#dem" target="_blank">地理院タイル(標高タイル)</a>',
         tileSize: 256
@@ -448,7 +448,7 @@
       });
 
       // PLATEAUベクトルタイル
-      let PMTiles_URL = "https://xs489works.xsrv.jp/pmtiles-data/plateau/" + BasePMTilesName + "_lod1_Building.pmtiles";
+      let PMTiles_URL = "https://shi-works.com/pmtiles/plateau/" + BasePMTilesName + "_lod1_Building.pmtiles";
 
       map.addSource("pmtiles-lod1-building", {
         type: "vector",
